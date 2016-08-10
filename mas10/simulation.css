@@ -1,0 +1,124 @@
+.container{
+	position: relative;
+	/*margin: 0 auto;*/
+}
+
+h4{
+	text-align: center;
+}
+
+#mainframe, #demo{
+	width: 650px;
+	height: 550px;
+	position: absolute;
+	z-index: 0;
+	left: 320px;
+}
+
+.area{
+	cursor: pointer;
+}
+
+#cube{
+	position: absolute;
+	z-index: 1;
+	visibility: hidden;
+	top:0px;
+	width: 400px;
+	height: 350px;
+	left: 445px;
+}
+
+#curvette{
+  position: absolute;
+  z-index: 1;
+  width:25px;
+  height: 45px;
+  left:800px;
+  top:450px;
+  cursor: pointer;
+ /* visibility: hidden;*/
+}
+
+#refcurvette{
+  position: absolute;
+  z-index: 1;
+  width:16px;
+  height: 35px;
+  left:550px;
+  top:350px;
+ /* visibility: hidden;*/
+}
+
+#clockscreen{
+ position: absolute;
+ z-index: 2;
+ width: 200px;
+ height: 180px;
+ left: 530px;
+ top:240px;
+ visibility: hidden;
+}
+
+#clockscreen1{
+	position: absolute;
+	z-index: 2;
+	width: 650px;
+	height: 550px;
+	left: 330px;
+	top:60px;
+	visibility: hidden;
+}
+
+#clockhand{
+  position: absolute;
+  z-index: 3;
+  left: 622px;
+  top:256px;
+  height: 120px;
+  visibility: hidden;
+}
+
+#clockhand1{
+	position: absolute;
+    z-index: 3;
+    left: 658px;
+    top:265px;
+    height: 120px;
+    visibility: hidden;
+}
+#instrctnbox{
+	position: absolute;
+	z-index: 4;
+	margin: 0 0 410px 410px;
+	visibility: hidden;
+}
+
+#arrow{
+	width: 30px;
+	height: 40px;
+	float: left;
+	/*margin: 0 0 350px 350px;*/
+	display: inline-block;
+}
+
+#instructionmsg{
+	border-radius: 7px;
+    background: #73AD21;
+    padding: 8px 10px 20px 10px; 
+    width: 350px;
+    height: 10px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    /*margin: 0 0 400px 400px; */ 
+}
+
+#reset{
+	cursor: pointer;
+	position: absolute;
+	left: 510px;
+	font-weight: bold;
+}
+
+

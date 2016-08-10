@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Experiment10</title>
+  <meta charset="utf-8">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
+  <link rel="stylesheet" type="text/css" href="simulation.css">
+</head>
+<body>
+<!-- Start of the container -->
+<div class="container">
+   <h4>Study of kinetics of a reaction by using spectrophotometric method</h4>  
+
+   <img id="mainframe" src="simulation_images/frames/mainframe.png" alt ="image not found" usemap="#mainframe"/>
+   <map name="mainframe">
+    <area class="area" shape="rect" coords="80,220,610,340" onclick = "changeImage()" alt="image not found">
+   </map><br/>
+
+   <map name="demo">
+    <area class="area" shape="rect" coords="40,450,60,1000" onclick = "showClock1()" alt="image not found">
+    <area class="area" shape="rect" coords="210,500,280,200" onclick = "openLid()" alt="image not found">
+   </map><br/>
+
+   <img id ="curvette" src = "simulation_images/curvette.png" onclick = "moveCurvette()">
+   <img id ="refcurvette" src = "simulation_images/refcurvette.png">
+
+   <img id = "cube"  src ="simulation_images/cube.png"><br/>
+
+   <div id ="clock">
+     <img id = "clockscreen" src="simulation_images/clock.png">
+     <img id = "clockhand" src="simulation_images/hand.png">
+   </div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+   <div id = "instrctnbox"> 
+      <img id = "arrow" src = "simulation_images/arrow.png">&nbsp;&nbsp;&nbsp;
+      <p id = "instructionmsg">UV Radiation taking place inside</p>
+   </div><br/>
+
+   <button id = "reset" onclick = "window.location.reload()"> Reset Experiment </button>  
+</div>
+<!-- end of the container -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="simulation.js"></script>
+<script type="text/javascript" src="jQueryRotate.js"></script>
+</body>
+</html>
